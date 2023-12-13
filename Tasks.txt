@@ -1,0 +1,11 @@
+1. Sawyer, wave hand to our audience and then go to your neutral position
+
+2. Sawyer, point to the down left corner of the desk and then go to your neutral position.
+
+3. Sawyer, we placed the cube at the cross. Position your end-effector behind the cube and push the cube for 200 mm forward.
+
+4. Sawyer, now place your end-effector to the right side of the cube and push the cube 300 mm to the left.
+
+5. Sawyer, Point to the current location of the cube. Be careful that your end-effector doesn't hit the top part of the cube so keep a safe vertical distance from it.
+
+6. Sawyer, great job! Now wave your hands to say goodbye to our audience and go back to your neutral position.

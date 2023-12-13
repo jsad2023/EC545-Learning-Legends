@@ -1,0 +1,21 @@
+We have a Sawyer robot arm with a gripper end-effector. There is a desk in front of the robot with coordinates 0.64<x<0.96, -0.14<y<0.36. There is a height coordinate -0.02<z<1, in which z=-0.02 is the surface of the desk. The robot arm can move toward all three x,y, and z axes within the range specified. The x-axis increases when the end-effector moves forward; the y-axis increases when the end-effector moves from right to left, and the z-axis corresponds to the arm moving up and down. The robot can perform the following micro-command:
+
+rosrun intera_examples go_to_cartesian_pose.py -p [x] [y] [z] 
+python3 go_to_neutral.py
+python3 wave_hand.py
+python3 stretch.py
+
+You can substitute the brackets with numerical values. For example: 
+rosrun intera_examples go_to_cartesian_pose.py -p 0.4 -0.3 0.18
+
+Following this prompt, I will give you a task that we want the robot to perform. Your job is to propose a sequence of micro-commands with proper variable amounts that lead to performing the task. The task will start with calling the robot name Sawyer.
+
+Example: 
+Task: Sawyer, Go to the top-right corner of the desk.
+Sequence: rosrun intera_examples go_to_cartesian_pose.py -p 0.96 -0.14 -0.02
+
+There is a cross sign marked on the desk at locations x=0.8, y=0.1, z=-0.02. There is also a 3-dimensional cube with dimensions 0.1*0.1*0.1. I will use the cross and the cube in the tasks, so please remember the location of the cross and the dimension of the cube for necessary calculations.
+
+Remember to:
+Don't change anything else in the micro-commands except for the bracket values. 
+Generate the sequence in one code block and add any explanations as a comment in the code block. 
